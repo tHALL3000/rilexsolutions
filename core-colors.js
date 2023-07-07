@@ -1,8 +1,8 @@
 const colors = {
-  bodyBackground: '#eae8e2',
-  headingColor: '#1bcd63',
+  bodyBackground: '#2c2f44',
+  headingColor: '#41a9b7',
   linkColor: '#41a9b7',
-  linkHoverColor: '#515159',
-  buttonBackground: '#1bcd63',
+  linkHoverColor: '#1bcd63',
+  buttonBackground: '#eaebe2',
   buttonHoverBackground: '#515159',
 };
