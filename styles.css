@@ -2,3 +2,35 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  background-color: var(--body-background);
+  color: var(--heading-color);
+}
+
+h1, h2, h3 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-background);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--button-hover-background);
+}
+
